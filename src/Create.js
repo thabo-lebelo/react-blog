@@ -24,8 +24,7 @@ const Create = () => {
             setIsPending(false);
             //history.go(-1);
             history.push('/'); // home page
-        })
-
+        });
     }
 
     return (
